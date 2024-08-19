@@ -1,4 +1,4 @@
-import Metas from "../components/Metas";
+import Metas from "../../components/Metas";
 import { Suspense, useEffect, useState } from "react";
 
 const Home = () => {

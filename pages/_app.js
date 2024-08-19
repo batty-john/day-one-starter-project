@@ -1,5 +1,24 @@
-import "@/styles/globals.css";
+import Header from "../components/Header";
+import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    require('bootstrap/dist/js/bootstrap.js');
+  }, []);
+
+  return (
+    <div className="container-fluid px-0">
+      <main className="main">
+        <Header />
+        <div className="row mx-0">
+          <div className="col px-0">
+            <Component {...pageProps} />
+          </div>
+        </div>
+      </main>
+    </div>
+  )
 }
+
+export default MyApp;

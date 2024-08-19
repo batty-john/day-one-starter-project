@@ -1,0 +1,27 @@
+{
+    "name": "Day One Software",
+    "short_name": "Day One",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "https://dayonesoftware.com/",
+    "icons": [
+        {
+            "src": "/day-one-favicon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/day-one-favicon-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/day-one-favicon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
